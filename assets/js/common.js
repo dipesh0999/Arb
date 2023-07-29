@@ -148,11 +148,14 @@
     $('.accreditation .flexImg').slick({
       dots: false,
       infinite: true,
-      speed: 1200,
+      speed: 4000,
       autoplay: true,
+      autoplaySpeed: 0,
       slidesToShow: 5,
       slidesToScroll: 1,
       arrows: false,
+      cssEase: 'linear',
+
       responsive: [
         {
           breakpoint: 1024,
@@ -234,8 +237,11 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
     mobileFirst: true,
     dots: false,
     arrows: false,
+    speed:6000,
     autoplay: true,
     infinite: true,
+    cssEase: 'linear',
+    autoplaySpeed: 0,
     responsive: [
       {
         breakpoint: $breakpoint,
