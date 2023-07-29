@@ -146,7 +146,7 @@
     });
 
     $('.accreditation .flexImg').slick({
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 4000,
       autoplay: true,
